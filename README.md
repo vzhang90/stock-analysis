@@ -7,9 +7,7 @@ Steve has recently graduated with his finance degree and taking on his parents a
 The purpose of this module is to better understand the process of refactoring (or editing) different codes to loop through all the data one time in order to collect the same information across multiple macros. 
  
 ## Results
-As datasets become larger, it is important to know how fast the VBA code will compile results.  
-
-To help Steve perform analysis on larger datasets in the future, a script to catpure start & end time of the executed code is added to measure this VBA code performance. To caculate how long the code takes to execute and output the elapsed time in a message box
+As datasets become larger, it is important to know how fast the VBA code will compile results. To help Steve perform analysis on larger datasets in the future, a script to catpure start & end time of the executed code is added to measure this VBA code performance. 
 1) Initialize variables `startTime` and `endTime` as `Single` data types underneath the `sub AllStocksAnalysisRefactored()` subroutine. 
 2) To start the timer after entering the year in the `InputBox90`, set the `startTime` variable equal to the `Timer` function underneath/after the `yearValue`variable set  
 ```
