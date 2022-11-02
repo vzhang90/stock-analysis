@@ -19,7 +19,8 @@ Sub AllStocksAnalysis()
     yearValue = InputBox("What year would you like to run the analysis on?")
 
        startTime = Timer
-```           
+```             
+---
 3) At the end of 'AllStocksAnalysisRefactored' script before the `End Sub` command and after the last `Next i`, set the `endTime` variable equal to the `Timer` function. Finally, create a message box statement `MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)` to calculate elapsed time of the code by subtracting `startTime` from `endTime` to measure code performance.  
 
 **Elapsed Time for macro VBA Challenge 2017**
