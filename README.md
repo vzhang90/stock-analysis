@@ -1,4 +1,4 @@
-# *Stock Analysis Refactor VBA*
+# **Stock Analysis Refactor VBA**
 Performing analysis on stock data in the excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) with VBA to automate values using refactoring code.
 
 ## Overview of VBA Challenge
