@@ -4,7 +4,7 @@
 ## Overview of VBA Challenge
 Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Diversification is of utmost importance in his investment model - so, he wants to analyze data of several green energy stocks in the [uploaded excel file.](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 
-**Purpose of this module:** refactor different VBA macros to loop through all data one time in a single subroutine, in order to analyze the Volume and Return for each stock ticker depending on year.
+**Purpose of this module:** refactor different VBA macros to loop through all data one time in a single subroutine, in order to analyze the *Volume* and *Return* for each stock ticker depending on year.
  
 ## Results
 As datasets become larger, it is important to know how fast the VBA code will compile results. To help Steve perform analysis on larger datasets in the future, a script to capture start & end time of the executed code is added to measure this VBA code performance. 
