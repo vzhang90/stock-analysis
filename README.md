@@ -14,10 +14,10 @@ To help Steve perform analysis on larger datasets in the future, a script to cat
 >2) To start the timer after entering the year in the `InputBox90`, set the `startTime` variable equal to the `Timer` function underneath/after the `yearValue`variable set. 
 >3) At the end of 'AllStocksAnalysisRefactored' script before the `End Sub` command and after the last `Next i`, set the `endTime` variable equal to the `Timer` function. Finally, create a message box statement `MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)` to calculate elapsed time of the code by subtracting `startTime` from `endTime` to measure code performance.  
 
-**Elapsed Time for macro VBA Challenge 2017
+**Elapsed Time for macro VBA Challenge 2017**
 ![VBA_Challenge_2017](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge_2017.png)  
   
-**Elapsed Time for macro VBA Challenge 2018
+**Elapsed Time for macro VBA Challenge 2018**
 ![VBA_Challenge_2018](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ## Summary
