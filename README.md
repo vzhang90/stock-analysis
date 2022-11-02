@@ -1,11 +1,8 @@
 # **Stock Analysis Refactor VBA**
-[VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
+[VBA_Challenge.xlsm](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## Overview of VBA Challenge
-Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Steve thinks his parents' investments should be more diversified - so, he wants to analyze several green energy stocks in the uploaded excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
-
-```[VBA_Challenge.xlsm](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) ```
-
+Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Steve thinks his parents' investments should be more diversified - so, he wants to analyze several green energy stocks in the uploaded excel file [VBA_Challenge.xlsm](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 
 The purpose of this module is to refactor (or editing) different codes to loop through all the data one time in order to collect the same information across multiple macros. 
  
