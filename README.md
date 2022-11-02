@@ -2,7 +2,7 @@
 [VBA_Challenge.xlsm](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## Overview of VBA Challenge
-Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Steve thinks his parents' investments should be more diversified - so, he wants to analyze several green energy stocks in the [uploaded excel file](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
+Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Steve thinks his parents' investments should be more diversified - so, he wants to analyze the data of several green energy stocks in the [uploaded excel file](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 
 The purpose of this module is to refactor (or editing) different subroutines to loop through all the data one time in a single macro in order to analyze the Volume and Return for each stock ticker depending on year.
  
@@ -20,7 +20,8 @@ Sub AllStocksAnalysis()
 
        startTime = Timer
 ```             
-3) At the end of 'AllStocksAnalysisRefactored' script before the `End Sub` command and after the last `Next i`, set the `endTime` variable equal to the `Timer` function. Finally, create a message box statement `MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)` to calculate elapsed time of the code by subtracting `startTime` from `endTime` to measure code performance.  
+3) At the end of 'AllStocksAnalysisRefactored' script before the `End Sub` command and after the last `Next i`, set the `endTime` variable equal to the `Timer` function. 
+4) Finally, create a message box statement `MsgBox "This code ran in " & (endTime - startTime) & " seconds for the year " & (yearValue)` to calculate elapsed time of the code by subtracting `startTime` from `endTime` to measure code performance.  
 ---
 **Stock Performance & Elapsed Time for macro VBA Challenge 2017**
 ![VBA_Challenge_2017](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge_2017.png)  
