@@ -1,5 +1,5 @@
 # **Stock Analysis Refactor VBA**
-Performing analysis on stock data in the excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) with VBA to automate values using refactoring code.
+[VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## Overview of VBA Challenge
 Steve has recently graduated with his finance degree and taking on his parents as his first clients. While his parents want to invest all their money into DAQO New Energy Corporation, a company that makes silicon wafers for solar panels, Steven this his parents' investments should be more diversified. So, he wants to analyze several green energy stocks in the excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) using VBA. 
