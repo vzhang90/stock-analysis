@@ -2,12 +2,12 @@
 [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## Overview of VBA Challenge
-Steve has recently graduated with his finance degree and taking on his parents as his first clients. While his parents want to invest all their money into DAQO New Energy Corporation, a company that makes silicon wafers for solar panels, Steven this his parents' investments should be more diversified. So, he wants to analyze several green energy stocks in the uploaded excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) using VBA. 
+Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Steve thinks his parents' investments should be more diversified - so, he wants to analyze several green energy stocks in the uploaded excel file [VBA_Challenge](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 
-The purpose of this module is to better understand the process of refactoring (or editing) different codes to loop through all the data one time in order to collect the same information across multiple macros. 
+The purpose of this module is to refactor (or editing) different codes to loop through all the data one time in order to collect the same information across multiple macros. 
  
 ## Results
-As datasets become larger, it is important to know how fast the VBA code will compile results. To help Steve perform analysis on larger datasets in the future, a script to catpure start & end time of the executed code is added to measure this VBA code performance. 
+As datasets become larger, it is important to know how fast the VBA code will compile results. To help Steve perform analysis on larger datasets in the future, a script to capture start & end time of the executed code is added to measure this VBA code performance. 
 1) Initialize variables `startTime` and `endTime` as `Single` data types underneath the `sub AllStocksAnalysisRefactored()` subroutine. 
 2) To start the timer after entering the year in the `InputBox90`, set the `startTime` variable equal to the `Timer` function underneath/after the `yearValue`variable set  
 ```
@@ -29,8 +29,7 @@ Sub AllStocksAnalysis()
 ![VBA_Challenge_2018](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ## Summary
-advantages and disadavntages of refactoring code in general
-When refactoring code, there is not necessarily newly added functionality. The biggest benefit to refactoring code is making it more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
+When refactoring code, there is not necessarily newly added functionality. The biggest benefit to refactoring code is making it more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. The biggest disadvantage to refactoring code is the syntax error from combining multiple macros into one. 
 
 advantages and disadvantages of original and refactored VBA script
 While originally separated into multiple macros across different modules, the original VBA scripts being compartmentalized into separate macros 
