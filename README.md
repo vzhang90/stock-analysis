@@ -29,7 +29,7 @@ Sub AllStocksAnalysis()
 **Stock Performance & Elapsed Time for macro VBA Challenge 2018**
 ![VBA_Challenge_2018](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge_2018.png)
   
-2018 saw horrible returns for a majority of green energy stocks compared to those of 2017 (which saw overall positive returns).
+2018 saw horrible overall returns for a majority of green energy stocks compared to those of 2017 (which saw overall positive returns). The only 2 stocks to post consecutive positive returns in 2017 to 2018 are stock tickers ENPH and RUN. On the other hand, TERP is the only stock to have negative returns in both 2017 & 2018.
 
 
 ## Summary
