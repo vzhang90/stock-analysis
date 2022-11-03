@@ -2,7 +2,7 @@
 [VBA_Challenge.xlsm](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm)
 
 ## Overview of VBA Challenge
-Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Diversification is of utmost importance in his investment model - so, he wants to analyze data of several green energy stocks in the [uploaded excel file.](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
+Having recently graduated with a finance degree, Steve is taking on his parents as his first clients. Diversification is of utmost importance in his investment outlook - so, he wants to analyze data of several green energy stocks in the [uploaded excel file.](https://github.com/vzhang90/stock-analysis/blob/main/VBA_Challenge.xlsm) 
 
 **Purpose of this module:** refactor different VBA macros to loop through all data one time in a single subroutine, in order to analyze the *Volume* and *Return* for each stock ticker depending on year.
  
@@ -33,6 +33,6 @@ Sub AllStocksAnalysis()
 
 
 ## Summary
-When refactoring code, there is not necessarily newly added functionality. The biggest benefit to refactoring code is making it more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. The biggest disadvantage to refactoring code is the syntax error from combining multiple macros into one. 
+The advantage to refactoring is making code more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. The biggest disadvantage to refactoring code is the syntax error from combining multiple macros into one. 
 
-While originally separated into multiple macros across different modules, the original VBA scripts being compartmentalized into separate macros. The advantage to refactored VBA scripts is increasing code efficiency to increase its execution speed in compiling data when running the macros' intended function.
+While originally separated into multiple macros across different modules, the original VBA scripts being compartmentalized into separate subroutines is cumbersome to sort through. The advantage to refactored VBA scripts is increasing code efficiency to increase its execution speed in compiling data when running the macros' intended function.
